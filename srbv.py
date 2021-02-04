@@ -1,4 +1,5 @@
 import os,sys
+from time import sleep
 
 waktu = 1
 
@@ -9,3 +10,4 @@ while True:
 		waktu = 1
 	else:
 		print("Wait ...")
+	sleep(1)
