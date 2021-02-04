@@ -1,6 +1,5 @@
 #!/bin/sh
 while [ true ]
 do
-    sh srbc.sh
-    sleep 5
+    timeout 5 bash -c -- 'while true; do ./srbc.sh;done'
 done
